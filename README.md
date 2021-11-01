@@ -11,7 +11,7 @@
 
 ---
 
-<h3>Linguagens Utilizadas:</h3>
+<h3>Tecnologias Utilizadas:</h3>
 
 * HTML
 * CSS
