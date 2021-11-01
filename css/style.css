@@ -1,0 +1,67 @@
+	*{transition: 0.2s;}
+	
+	body{
+		background: #2f004d
+	}
+
+	#cubo{
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		background-color: transparent;
+		z-index: 20
+	}
+
+	#centro{
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 10;
+	}
+
+	.cena{
+		perspective: 600px;
+		background-color: transparent;
+	}
+
+	.cena div{
+		width: 100;
+		height: 100;
+	}
+
+	#cena{background-color: transparent;}
+
+	.d6{
+		position: relative;
+		transform-style: preserve-3d;
+		background-color: transparent;
+	}
+
+	.d6 div{
+		width: 100;
+		height: 100;
+		background-color: rgba(0,0,0,0.2);
+	}
+
+	.face{
+		position: absolute;
+
+	}
+
+	.primeira{transform: translateZ(50px);}
+	.segunda{transform: translateZ(-50px);}
+	.terceira{transform: rotateY(90deg) translateZ(50px); ;}
+	.quarta{transform: rotateY(90deg) translateZ(-50px); ;}
+	.quinta{transform: rotateX(90deg) translateZ(50px); ;}
+	.sexta{transform: rotateX(90deg) translateZ(-50px); ;}
+
+	img{width: 100%; height: 100%;}
+	
