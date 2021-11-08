@@ -7,7 +7,7 @@
 <h3>Descrição:</h3>
 
 * D6 construído para consolidação de conhecimentos em JavaScript e CSS.
-* Fonte das Imagens: <https://www.alura.com.br/> 
+* Fonte das Imagens: Alura
 
 ---
 
